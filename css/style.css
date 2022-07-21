@@ -224,6 +224,7 @@ footer{
     margin-bottom: 20px;
 }
 
+
 /* responsive for tablet */
 
 
@@ -244,7 +245,7 @@ footer{
         border-radius: 10px;
         margin-right: 20px;
         width: 70vw;
-        /* background-color:black; */
+    background-color: #ff000000;
    
     }
     .sidebar .upcoming{
@@ -319,5 +320,8 @@ footer{
         color:#cec9c9;
         margin-bottom: 20px;
 
+    }
+    .see_all{
+        display: none;
     }
 }
