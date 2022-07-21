@@ -76,10 +76,10 @@ main{
     display: grid;
     gap: 15px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, fr);
-    height: 60vh;
+    grid-template-rows: repeat(3, 1fr);
+    /* height: 60vh; */
     margin:auto;
-    overflow: scroll;
+    /* overflow: scroll;  */
 }
 
 .sidebar{
@@ -166,7 +166,11 @@ footer{
     height: 20vh;
     background-color: black;
 }
+footer{
+    display: flex;
+    justify-content: center;
+}
+.footer_wrapper{
 
-.goal{
-    
+
 }
